@@ -1,0 +1,19 @@
+================================================================================
+                                                              *complextras.nvim*
+
+complextras is a plugin for adding a few extras to your |ins-completion|
+experience.  Made with love by TJ DeVries
+
+complextras.complete_line_from_cwd({current_line})*complextras.complete_line_from_cwd()*
+        Does not have to be an open file!
+
+        Parameters: ~
+            {current_line} (string)  Optional line to match against. Defaults to your current line
+
+
+complextras.complete_matching_line()    *complextras.complete_matching_line()*
+        all of the text _currently_ on your line.
+
+
+
+ vim:tw=78:ts=8:ft=help:norl:
