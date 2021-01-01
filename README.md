@@ -23,7 +23,7 @@ Plug 'tjdevries/complextras.nvim'
 You can map things like this:
 
 ```
-inoremap <c-x><c-d> <c-r>=luaeval("require('complextras').complete_line_from_cwd()<CR>
+inoremap <c-x><c-d> <c-r>=luaeval("require('complextras').complete_line_from_cwd()")<CR>
 ```
 
 See `:help complextras`
